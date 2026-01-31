@@ -1,0 +1,20 @@
+# Core Dependencies
+openai>=2.8.1
+pypdf2>=3.0.1
+python-dotenv>=1.2.1
+streamlit>=1.51.0
+crewai>=0.28.0
+fpdf2>=2.7.0
+pydantic>=2.0.0
+langchain-openai>=0.1.0
+
+# New Dependencies for ATS Optimization
+python-docx>=0.8.11
+openpyxl>=3.1.2
+pyyaml>=6.0.1
+spacy>=3.7.2
+scikit-learn>=1.3.2
+
+# Testing
+pytest>=7.4.3
+pytest-cov>=4.1.0

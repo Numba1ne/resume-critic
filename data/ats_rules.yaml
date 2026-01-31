@@ -1,0 +1,91 @@
+# ATS Formatting Rules Configuration
+
+formatting:
+  file_formats:
+    allowed:
+      - ".docx"
+    prohibited:
+      - ".pdf"
+      - ".doc"
+    
+  fonts:
+    allowed:
+      - "Calibri"
+      - "Arial"
+      - "Times New Roman"
+    size_range:
+      min: 10
+      max: 12
+      
+  layout:
+    columns: 1
+    margins: "1 inch"
+    
+  prohibited_elements:
+    - "headers"
+    - "footers"
+    - "images"
+    - "tables"
+    - "text_boxes"
+    - "columns"
+    
+scoring:
+  file_format_weight: 30
+  layout_weight: 25
+  font_weight: 10
+  graphics_weight: 20
+  headers_weight: 15
+  
+ats_systems:
+  greenhouse:
+    focus: "Keyword matching + scorecard"
+    url_patterns:
+      - "greenhouse.io"
+    tips:
+      - "Role title matches highly weighted"
+      - "Answer knockout questions carefully"
+      - "Keywords are heavily weighted"
+      
+  workable:
+    focus: "Skills matching + disqualification"
+    url_patterns:
+      - "workable.com"
+    tips:
+      - "Watch for disqualification questions"
+      - "Parses .docx very well"
+      - "Skills matching is primary scoring"
+      
+  lever:
+    focus: "Experience duration + cover letters"
+    url_patterns:
+      - "lever.co"
+    tips:
+      - "State years of experience clearly"
+      - "Cover letters surfaced to recruiters"
+      - "Write detailed cover letter"
+      
+  ashby:
+    focus: "Modern, similar to Greenhouse"
+    url_patterns:
+      - "ashbyhq.com"
+    tips:
+      - "Treat similar to Greenhouse"
+      - "Strong keyword matching"
+      
+  taleo:
+    focus: "Strict keyword matching"
+    url_patterns:
+      - "taleo.net"
+    tips:
+      - "Older system, very keyword-focused"
+      - "Use exact terminology"
+      - "Be thorough with all fields"
+      
+  workday:
+    focus: "Enterprise, keyword-focused"
+    url_patterns:
+      - "myworkday.com"
+    tips:
+      - "Very keyword-driven"
+      - "Complete all optional fields"
+      - "Use exact matches"

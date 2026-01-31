@@ -1,0 +1,55 @@
+# UK Salary Reference Data (Data/Analytics Roles 2026)
+
+uk_data_analytics_2026:
+  junior_graduate:
+    years_experience: "0-2"
+    london: "£30,000 - £40,000"
+    other_uk: "£25,000 - £35,000"
+    
+  mid_level:
+    years_experience: "2-4"
+    london: "£45,000 - £60,000"
+    other_uk: "£38,000 - £50,000"
+    
+  senior:
+    years_experience: "4-6"
+    london: "£55,000 - £75,000"
+    other_uk: "£45,000 - £60,000"
+    
+  lead_principal:
+    years_experience: "6-8"
+    london: "£70,000 - £95,000"
+    other_uk: "£55,000 - £75,000"
+    
+  manager_head:
+    years_experience: "8+"
+    london: "£80,000 - £120,000"
+    other_uk: "£65,000 - £90,000"
+
+# US Salary Reference Data (Data/Analytics Roles 2026)
+
+us_data_analytics_2026:
+  junior_graduate:
+    years_experience: "0-2"
+    major_cities: "$60,000 - $80,000"
+    other_us: "$50,000 - $70,000"
+    
+  mid_level:
+    years_experience: "2-4"
+    major_cities: "$80,000 - $110,000"
+    other_us: "$70,000 - $95,000"
+    
+  senior:
+    years_experience: "4-6"
+    major_cities: "$110,000 - $140,000"
+    other_us: "$95,000 - $120,000"
+    
+  lead_principal:
+    years_experience: "6-8"
+    major_cities: "$140,000 - $180,000"
+    other_us: "$120,000 - $150,000"
+    
+  manager_head:
+    years_experience: "8+"
+    major_cities: "$160,000 - $220,000"
+    other_us: "$140,000 - $180,000"
